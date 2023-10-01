@@ -1,0 +1,277 @@
+Connection established to port 12345
+Message sent to port 12345: LIST
+Message sent to port 12345: LIST
+Message sent to port 12345: LIST
+List operation started
+List operation started
+Message sent to port 12345: LIST
+List operation started
+Message received from port 12345: LIST small_file.jpg
+Message received from port 12345: LIST small_file.jpg
+List operation started
+List operation successfully completed
+List operation successfully completed
+Message received from port 12345: LIST small_file.jpg
+Message sent to port 12345: LIST
+List operation successfully completed
+Message received from port 12345: LIST small_file.jpg
+List operation started
+List operation successfully completed
+Message received from port 12345: LIST small_file.jpg
+List operation successfully completed
+Message sent to port 12345: STORE test.txt 7
+Message sent to port 12345: STORE test.txt 7
+Message sent to port 12345: STORE test.txt 7
+Message sent to port 12345: STORE test.txt 7
+Message sent to port 12345: STORE test.txt 7
+Store operation started for file test.txt
+Store operation started for file test.txt
+Store operation started for file test.txt
+Store operation started for file test.txt
+Message received from port 12345: STORE_TO 5674 
+Store operation started for file test.txt
+Controller replied to store test.txt in these Dstores: 5674 
+Connection established to port 5674
+Message sent to port 5674: STORE test.txt 7
+Storing file test.txt to Dstore 5674
+Message received from port 5674: ACK
+ACK received from Dstore 5674 to store file test.txt
+Store of file test.txt to Dstore 5674 successfully completed
+Message received from port 12345: STORE_COMPLETE
+Store operation for file test.txt completed
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store test.txt already exists in the data store
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store test.txt already exists in the data store
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store test.txt already exists in the data store
+File to store test.txt already exists in the data store
+Message sent to port 12345: STORE test.txt 7
+Store operation started for file test.txt
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store test.txt already exists in the data store
+Message sent to port 12345: STORE test.txt 7
+Store operation started for file test.txt
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store test.txt already exists in the data store
+Message sent to port 12345: STORE test.txt 7
+Store operation started for file test.txt
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store test.txt already exists in the data store
+Message sent to port 12345: STORE test.txt 7
+Store operation started for file test.txt
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store test.txt already exists in the data store
+Message sent to port 12345: STORE test.txt 7
+Store operation started for file test.txt
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store test.txt already exists in the data store
+Message sent to port 12345: STORE test.txt 7
+Store operation started for file test.txt
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store test.txt already exists in the data store
+Message sent to port 12345: STORE test.txt 7
+Store operation started for file test.txt
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store test.txt already exists in the data store
+Message sent to port 12345: STORE test.txt 7
+Store operation started for file test.txt
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store test.txt already exists in the data store
+Message sent to port 12345: STORE test.txt 7
+Store operation started for file test.txt
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store test.txt already exists in the data store
+Message sent to port 12345: STORE test2.txt 0
+Store operation started for file test2.txt
+Message received from port 12345: STORE_TO 5676 
+Controller replied to store test2.txt in these Dstores: 5676 
+Connection established to port 5676
+Message sent to port 12345: STORE test2.txt 0
+Message sent to port 5676: STORE test2.txt 0
+Store operation started for file test2.txt
+Storing file test2.txt to Dstore 5676
+Message sent to port 12345: STORE test2.txt 0
+Store operation started for file test2.txt
+Message sent to port 12345: STORE test.txt 7
+Store operation started for file test.txt
+Message sent to port 12345: STORE test2.txt 0
+Store operation started for file test2.txt
+Message received from port 5676: ACK
+ACK received from Dstore 5676 to store file test2.txt
+Store of file test2.txt to Dstore 5676 successfully completed
+Message received from port 12345: STORE_COMPLETE
+Store operation for file test2.txt completed
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+Message sent to port 12345: LIST
+File to store test2.txt already exists in the data store
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+List operation started
+File to store test.txt already exists in the data store
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+Message received from port 12345: LIST test.txt small_file.jpg test2.txt
+File to store test2.txt already exists in the data store
+List operation successfully completed
+File to store test2.txt already exists in the data store
+Message sent to port 12345: LIST
+List operation started
+Message received from port 12345: LIST test.txt small_file.jpg test2.txt
+Message sent to port 12345: LOAD test.txt
+Message sent to port 12345: LIST
+List operation successfully completed
+List operation started
+Load operation for file test.txt started
+Message received from port 12345: LIST test.txt small_file.jpg test2.txt
+Message sent to port 12345: STORE test2.txt 0
+List operation successfully completed
+Message received from port 12345: LOAD_FROM 5674 7
+Store operation started for file test2.txt
+Controller replied to load file test.txt (size: 7 bytes) from Dstore 5674
+Message sent to port 12345: LIST
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+List operation started
+Message sent to port 12345: LOAD test.txt
+Connection established to port 5674
+Load operation for file test.txt started
+Message sent to port 12345: LOAD test.txt
+Message received from port 12345: LIST test.txt small_file.jpg test2.txt
+File to store test2.txt already exists in the data store
+List operation successfully completed
+Load operation for file test.txt started
+Message received from port 12345: LOAD_FROM 5674 7
+Message sent to port 5674: LOAD_DATA test.txt
+Controller replied to load file test.txt (size: 7 bytes) from Dstore 5674
+Message received from port 12345: LOAD_FROM 5674 7
+Controller replied to load file test.txt (size: 7 bytes) from Dstore 5674
+Connection established to port 5674
+Loading file test.txt from Dstore 5674
+Message sent to port 5674: LOAD_DATA test.txt
+Connection established to port 5674
+Message sent to port 12345: LIST
+Message sent to port 5674: LOAD_DATA test.txt
+Loading file test.txt from Dstore 5674
+Load operation of file test.txt from Dstore 5674 successfully completed
+Load operation of file test.txt from Dstore 5674 successfully completed
+Loading file test.txt from Dstore 5674
+List operation started
+Message received from port 12345: LIST test.txt small_file.jpg test2.txt
+Load operation of file test.txt from Dstore 5674 successfully completed
+Message sent to port 12345: LOAD small_file.jpg
+List operation successfully completed
+Message sent to port 12345: LOAD small_file.jpg
+Message sent to port 12345: LOAD small_file.jpg
+Message sent to port 12345: LOAD test.txt
+Load operation for file small_file.jpg started
+Load operation for file small_file.jpg started
+Load operation for file small_file.jpg started
+Message received from port 12345: LOAD_FROM 5674 4849
+Message received from port 12345: LOAD_FROM 5674 4849
+Load operation for file test.txt started
+Controller replied to load file small_file.jpg (size: 4849 bytes) from Dstore 5674
+Controller replied to load file small_file.jpg (size: 4849 bytes) from Dstore 5674
+Message received from port 12345: LOAD_FROM 5674 4849
+Connection established to port 5674
+Connection established to port 5674
+Message received from port 12345: LOAD_FROM 5674 7
+Message sent to port 5674: LOAD_DATA small_file.jpg
+Message sent to port 5674: LOAD_DATA small_file.jpg
+Message sent to port 12345: LOAD test.txt
+Controller replied to load file small_file.jpg (size: 4849 bytes) from Dstore 5674
+Load operation for file test.txt started
+Loading file small_file.jpg from Dstore 5674
+Loading file small_file.jpg from Dstore 5674
+Controller replied to load file test.txt (size: 7 bytes) from Dstore 5674
+Load operation of file small_file.jpg from Dstore 5674 successfully completed
+Load operation of file small_file.jpg from Dstore 5674 successfully completed
+Message received from port 12345: LOAD_FROM 5674 7
+Connection established to port 5674
+Controller replied to load file test.txt (size: 7 bytes) from Dstore 5674
+Message sent to port 12345: LOAD test2.txt
+Message sent to port 12345: LOAD test2.txt
+Load operation for file test2.txt started
+Connection established to port 5674
+Load operation for file test2.txt started
+Connection established to port 5674
+Message sent to port 5674: LOAD_DATA test.txt
+Message sent to port 5674: LOAD_DATA small_file.jpg
+Message received from port 12345: LOAD_FROM 5676 0
+Message sent to port 5674: LOAD_DATA test.txt
+Message received from port 12345: LOAD_FROM 5676 0
+Loading file test.txt from Dstore 5674
+Controller replied to load file test2.txt (size: 0 bytes) from Dstore 5676
+Loading file small_file.jpg from Dstore 5674
+Loading file test.txt from Dstore 5674
+Load operation of file small_file.jpg from Dstore 5674 successfully completed
+Connection established to port 5676
+Controller replied to load file test2.txt (size: 0 bytes) from Dstore 5676
+Message sent to port 5676: LOAD_DATA test2.txt
+Message sent to port 12345: LOAD test2.txt
+Load operation for file test2.txt started
+Load operation of file test.txt from Dstore 5674 successfully completed
+Loading file test2.txt from Dstore 5676
+Connection established to port 5676
+Load operation of file test2.txt from Dstore 5676 successfully completed
+Message received from port 12345: LOAD_FROM 5676 0
+Message sent to port 12345: LOAD small_file.jpg
+Message sent to port 5676: LOAD_DATA test2.txt
+Load operation for file small_file.jpg started
+Controller replied to load file test2.txt (size: 0 bytes) from Dstore 5676
+Message received from port 12345: LOAD_FROM 5674 4849
+Message sent to port 12345: LIST
+Load operation of file test.txt from Dstore 5674 successfully completed
+Loading file test2.txt from Dstore 5676
+Message sent to port 12345: LOAD small_file.jpg
+List operation started
+Controller replied to load file small_file.jpg (size: 4849 bytes) from Dstore 5674
+Connection established to port 5676
+Connection established to port 5674
+Message received from port 12345: LIST test.txt small_file.jpg test2.txt
+Load operation for file small_file.jpg started
+Load operation of file test2.txt from Dstore 5676 successfully completed
+Message received from port 12345: LOAD_FROM 5674 4849
+List operation successfully completed
+Message sent to port 5674: LOAD_DATA small_file.jpg
+Message sent to port 5676: LOAD_DATA test2.txt
+Loading file small_file.jpg from Dstore 5674
+Controller replied to load file small_file.jpg (size: 4849 bytes) from Dstore 5674
+Connection established to port 5674
+Load operation of file small_file.jpg from Dstore 5674 successfully completed
+Loading file test2.txt from Dstore 5676
+Message sent to port 12345: LOAD test2.txt
+Message sent to port 5674: LOAD_DATA small_file.jpg
+Message sent to port 12345: LIST
+Loading file small_file.jpg from Dstore 5674
+Load operation for file test2.txt started
+Load operation of file test2.txt from Dstore 5676 successfully completed
+Message received from port 12345: LOAD_FROM 5676 0
+Load operation of file small_file.jpg from Dstore 5674 successfully completed
+List operation started
+Message sent to port 12345: LOAD test2.txt
+Controller replied to load file test2.txt (size: 0 bytes) from Dstore 5676
+Connection established to port 5676
+Load operation for file test2.txt started
+Message received from port 12345: LIST test.txt small_file.jpg test2.txt
+Message received from port 12345: LOAD_FROM 5676 0
+Message sent to port 5676: LOAD_DATA test2.txt
+Loading file test2.txt from Dstore 5676
+Message sent to port 12345: LIST
+Controller replied to load file test2.txt (size: 0 bytes) from Dstore 5676
+List operation successfully completed
+Connection established to port 5676
+List operation started
+Load operation of file test2.txt from Dstore 5676 successfully completed
+Message received from port 12345: LIST test.txt small_file.jpg test2.txt
+Message sent to port 5676: LOAD_DATA test2.txt
+Loading file test2.txt from Dstore 5676
+List operation successfully completed
+Load operation of file test2.txt from Dstore 5676 successfully completed
+Message sent to port 12345: LIST
+Message sent to port 12345: LIST
+List operation started
+Message received from port 12345: LIST test.txt small_file.jpg test2.txt
+List operation started
+Message received from port 12345: LIST test.txt small_file.jpg test2.txt
+List operation successfully completed
+List operation successfully completed

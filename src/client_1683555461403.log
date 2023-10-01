@@ -1,0 +1,32 @@
+Connection established to port 12345
+Message sent to port 12345: LIST
+List operation started
+Message received from port 12345: LIST 
+List operation successfully completed
+Message sent to port 12345: STORE small_file.jpg 4849
+Store operation started for file small_file.jpg
+Message received from port 12345: STORE_TO 5679 
+Controller replied to store small_file.jpg in these Dstores: 5679 
+Connection established to port 5679
+Message sent to port 5679: STORE small_file.jpg 4849
+Storing file small_file.jpg to Dstore 5679
+Message received from port 5679: ACK
+ACK received from Dstore 5679 to store file small_file.jpg
+Store of file small_file.jpg to Dstore 5679 successfully completed
+Timeout expired while reading from port 12345
+Message sent to port 12345: STORE small_file.jpg 4849
+Store operation started for file small_file.jpg
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store small_file.jpg already exists in the data store
+Message sent to port 12345: STORE small_file.jpg 4849
+Store operation started for file small_file.jpg
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store small_file.jpg already exists in the data store
+Message sent to port 12345: LIST
+List operation started
+Message received from port 12345: LIST small_file.jpg
+List operation successfully completed
+Message sent to port 12345: LOAD small_file.jpg
+Load operation for file small_file.jpg started
+Message received from port 12345: ERROR_FILE_DOES_NOT_EXIST
+Load operation failed because file does not exist (filename: small_file.jpg)

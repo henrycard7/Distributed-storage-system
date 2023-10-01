@@ -1,0 +1,73 @@
+Connection established to port 12345
+Message sent to port 12345: LIST
+List operation started
+Message received from port 12345: LIST 
+List operation successfully completed
+Message sent to port 12345: STORE small_file.jpg 4849
+Store operation started for file small_file.jpg
+Message received from port 12345: STORE_TO 5678 5679 
+Controller replied to store small_file.jpg in these Dstores: 5678 5679 
+Connection established to port 5678
+Message sent to port 5678: STORE small_file.jpg 4849
+Storing file small_file.jpg to Dstore 5678
+Message received from port 5678: ACK
+ACK received from Dstore 5678 to store file small_file.jpg
+Store of file small_file.jpg to Dstore 5678 successfully completed
+Connection established to port 5679
+Message sent to port 5679: STORE small_file.jpg 4849
+Storing file small_file.jpg to Dstore 5679
+Message received from port 5679: ACK
+ACK received from Dstore 5679 to store file small_file.jpg
+Store of file small_file.jpg to Dstore 5679 successfully completed
+Message received from port 12345: STORE_COMPLETE
+Store operation for file small_file.jpg completed
+Message sent to port 12345: STORE small_file.jpg 4849
+Store operation started for file small_file.jpg
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store small_file.jpg already exists in the data store
+Message sent to port 12345: STORE small_file.jpg 4849
+Store operation started for file small_file.jpg
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store small_file.jpg already exists in the data store
+Message sent to port 12345: STORE test.txt 7
+Store operation started for file test.txt
+Message received from port 12345: STORE_TO 5679 5678 
+Controller replied to store test.txt in these Dstores: 5679 5678 
+Connection established to port 5679
+Message sent to port 5679: STORE test.txt 7
+Storing file test.txt to Dstore 5679
+Message received from port 5679: ACK
+ACK received from Dstore 5679 to store file test.txt
+Store of file test.txt to Dstore 5679 successfully completed
+Connection established to port 5678
+Message sent to port 5678: STORE test.txt 7
+Storing file test.txt to Dstore 5678
+Message received from port 5678: ACK
+ACK received from Dstore 5678 to store file test.txt
+Store of file test.txt to Dstore 5678 successfully completed
+Message received from port 12345: STORE_COMPLETE
+Store operation for file test.txt completed
+Message sent to port 12345: LIST
+List operation started
+Message received from port 12345: LIST test.txt small_file.jpg
+List operation successfully completed
+Message sent to port 12345: LOAD test.txt
+Load operation for file test.txt started
+Message received from port 12345: LOAD_FROM 5679 7
+Controller replied to load file test.txt (size: 7 bytes) from Dstore 5679
+Connection established to port 5679
+Message sent to port 5679: LOAD_DATA test.txt
+Loading file test.txt from Dstore 5679
+Load operation of file test.txt from Dstore 5679 successfully completed
+Message sent to port 12345: LOAD small_file.jpg
+Load operation for file small_file.jpg started
+Message received from port 12345: LOAD_FROM 5678 4849
+Controller replied to load file small_file.jpg (size: 4849 bytes) from Dstore 5678
+Connection established to port 5678
+Message sent to port 5678: LOAD_DATA small_file.jpg
+Loading file small_file.jpg from Dstore 5678
+Load operation of file small_file.jpg from Dstore 5678 successfully completed
+Message sent to port 12345: LIST
+List operation started
+Message received from port 12345: LIST test.txt small_file.jpg
+List operation successfully completed

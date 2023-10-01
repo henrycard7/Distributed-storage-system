@@ -1,0 +1,29 @@
+Connection established to port 12345
+Message sent to port 12345: STORE small_file.jpg 4849
+Message sent to port 12345: STORE small_file.jpg 4849
+Message sent to port 12345: STORE small_file.jpg 4849
+Store operation started for file small_file.jpg
+Message sent to port 12345: STORE small_file.jpg 4849
+Message sent to port 12345: STORE small_file.jpg 4849
+Store operation started for file small_file.jpg
+Store operation started for file small_file.jpg
+Store operation started for file small_file.jpg
+Store operation started for file small_file.jpg
+Message received from port 12345: STORE_TO 5674 
+Controller replied to store small_file.jpg in these Dstores: 5674 
+Connection established to port 5674
+Message sent to port 5674: STORE small_file.jpg 4849
+Storing file small_file.jpg to Dstore 5674
+Message received from port 5674: ACK
+ACK received from Dstore 5674 to store file small_file.jpg
+Store of file small_file.jpg to Dstore 5674 successfully completed
+Message received from port 12345: STORE_COMPLETE
+Store operation for file small_file.jpg completed
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store small_file.jpg already exists in the data store
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store small_file.jpg already exists in the data store
+File to store small_file.jpg already exists in the data store
+Message received from port 12345: ERROR_FILE_ALREADY_EXISTS
+File to store small_file.jpg already exists in the data store
